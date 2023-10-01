@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* box-sizing: border-box; */
+    background-color: antiquewhite;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    font-weight: bolder;
+    /* border: 2px red solid; */
+    /* height: 100%; */
+    font-size: 1.3rem;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 40px;
+    /* border: 2px blue solid; */
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.484);
+    padding: 5px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 1.7rem;
+}
+
+.container {
+    /* border: 2px solid red; */
+    min-height: 72vh;
+    background-color: rgba(0, 0, 0, 0.775);
+    color: white;
+    margin: 22px auto;
+    border-radius: 20px;
+    display: flex;
+    width: 75%;
+    background-image: url("bg.jpg");
+
+    /* opacity: 0.8; */
+    /* background-repeat: no-repeat; */
+}
+
+.songList {
+    width: 60%;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px auto;
+    /* border: 2px solid red; */
+
+    /* background-size: cover; */
+}
+
+.songContainer {
+    margin-top: 30px;
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    padding: 10px;
+    gap: 8px;
+}
+
+.song {
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+    align-items: center;
+    width: 70%;
+    background-color: white;
+    color: black;
+    justify-content: flex-start;
+    border-radius: 15px;
+    padding: 5px;
+    gap: 10px
+}
+
+.songDisplay {
+    position: absolute;
+    right: 5px;
+}
+
+.song img {
+    width: 50px;
+    border-radius: 34px;
+}
+
+.brand img {
+    /* border: 2px blue solid; */
+
+    width: 47px;
+    height: 100%;
+}
+
+.timeStamp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.775);
+    color: white;
+    bottom: 0px;
+    gap: 25px;
+}
+
+#myProgressBar {
+    width: 60%;
+    cursor: pointer;
+
+}
+
+.gif img {
+    height: 30px;
+    width: 55px;
+}
+
+.gif {
+    position: absolute;
+    margin-top: 31px;
+    left: 20vw;
+    display: none;
+}
